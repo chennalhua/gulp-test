@@ -1,0 +1,29 @@
+.header {
+  height: 50px;
+  background-color: #00cc99; }
+
+.footer {
+  height: 50px;
+  background-color: #00cc99; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .box:hover {
+    width: 200px;
+    background-color: #00cc99; }
+
+code {
+  font-size: 16px;
+  background-color: #064668;
+  color: white;
+  padding: 0 10px; }
+
+/*# sourceMappingURL=all.css.map */
