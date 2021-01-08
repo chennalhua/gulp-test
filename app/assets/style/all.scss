@@ -1,0 +1,30 @@
+$color: #00cc99;
+
+.header {
+  height: 50px;
+  background-color: #00cc99;
+}
+
+.footer {
+  height: 50px;
+  background-color: #00cc99;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: flex;
+  transition: all 0.5s;
+  &:hover {
+    width: 200px;
+    background-color: $color;
+  }
+}
+
+code{
+  font-size:16px;
+  background-color:#064668;
+  color: white;
+  padding:0 10px;
+}
